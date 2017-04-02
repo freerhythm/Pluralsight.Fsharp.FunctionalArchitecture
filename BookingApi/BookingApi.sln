@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BookingApi.Webhost", "BookingApi.Webhost\BookingApi.Webhost.fsproj", "{11A807E2-CDD3-4F51-B52A-4D53A2BC4EA6}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BookingApi", "BookingApi\BookingApi.fsproj", "{8856CC6E-DA57-4C62-B329-9A02D311DC38}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BookingApi.UnitTests", "BookingApi.UnitTests\BookingApi.UnitTests.fsproj", "{96AFFFEA-BB8C-494E-A6D2-A14C3E8A425A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{11A807E2-CDD3-4F51-B52A-4D53A2BC4EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A807E2-CDD3-4F51-B52A-4D53A2BC4EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A807E2-CDD3-4F51-B52A-4D53A2BC4EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8856CC6E-DA57-4C62-B329-9A02D311DC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8856CC6E-DA57-4C62-B329-9A02D311DC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8856CC6E-DA57-4C62-B329-9A02D311DC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8856CC6E-DA57-4C62-B329-9A02D311DC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AFFFEA-BB8C-494E-A6D2-A14C3E8A425A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AFFFEA-BB8C-494E-A6D2-A14C3E8A425A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AFFFEA-BB8C-494E-A6D2-A14C3E8A425A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AFFFEA-BB8C-494E-A6D2-A14C3E8A425A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
