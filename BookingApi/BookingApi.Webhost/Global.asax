@@ -1,0 +1,1 @@
+﻿<%@ Application Inherits="Pluralsight.Fsharp.BookingApi.Webhost.Global" %>
